@@ -1,0 +1,33 @@
+.filter {
+    margin: 5px;
+    margin-bottom: 20px;
+}
+
+input#status[type=checkbox] {
+    display:none;
+}
+
+input#status[type=checkbox] + label {
+    height: 20px;
+    width: 20px;
+}
+input#status + label {
+    background-color: #9cd175;
+    border-radius: 100%;
+    box-shadow: 2px 2px 2px .1px #2d323a;
+}
+input#status:checked + label {
+    background-color: #dd4f4f;
+    border-radius: 100%;
+    box-shadow: 2px 2px 2px .1pxx #2d323a;
+}
+
+.form-control{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.invisible{
+    display: none;
+}

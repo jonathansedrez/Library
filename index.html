@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Library</title>
+        <link href="css/bootstrap.css" rel="stylesheet" />
+        <link href="css/app.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2>Library</h2>
+        <main class="main">
+            <div>
+                <input id="filter-book-id" class="filter" name="filter" type="text" placeholder="Filter by ID">
+                <input id="filter-book-title" class="filter" name="filter" type="text" placeholder="Filter by Title">
+                <input id="filter-book-author" class="filter" name="filter" type="text" placeholder="Filter by Author">
+            </div>
+            <table class="table table-bordered" id="table-book">
+                <thead class="thead-dark">
+                    <th></th>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Status</th>
+                </thead>
+                <tbody id="tbody-book">
+                    <tr class="book">
+                        <td><input type="checkbox" class="input"></td>                 
+                        <td id="id">1</td>
+                        <td id="title">teste1</td>
+                        <td id="author">teste1</td>
+                        <td>
+                            <input type="checkbox" disabled class="status" id="status">
+                            <label for="status"></label>
+                        </td>
+                    </tr>
+                    <tr class="book">
+                        <td><input type="checkbox" class="input"></td>                 
+                        <td id="id">2</td>
+                        <td id="title">teste2</td>
+                        <td id="author">teste2</td>
+                        <td>
+                            <input type="checkbox" disabled class="status" id="status">
+                            <label for="status"></label>
+                        </td>
+                    </tr>
+                    <tr class="book">
+                        <td><input type="checkbox" class="input"></td>                 
+                        <td id="id">3</td>
+                        <td id="title">teste3</td>
+                        <td id="author">teste3</td>
+                        <td>
+                            <input type="checkbox" disabled class="status" id="status">
+                            <label for="status"></label>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <form id="form-addBook" class="form-group">
+                <input type="text" name="title" class="form-control" placeholder="Title">
+                <input type="text" name="author" class="form-control" placeholder="Author">
+            </form>
+            <div class="buttons">
+                <button id="button-addBook" class="btn btn-primary btn-sm btn-block">Add</button>
+                <button id="button-loanBook" class="btn btn-secondary btn-sm btn-block">Make Loan</button>
+                <button id="button-returnBook" class="btn btn-secondary btn-sm btn-block">Return Book</button>
+                <button id="button-deleteBook" class="btn btn-danger btn-sm btn-block">Delete book</button>     
+            </div>    
+        </main>
+    </body>
+    <script src="js/add-book.js"></script>
+    <script src="js/delete-book.js"></script>
+    <script src="js/filter-book.js"></script>
+    <script src="js/loan-book.js"></script>
+    <script src="js/return-book.js"></script>
+</html>
