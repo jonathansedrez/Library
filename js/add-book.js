@@ -13,9 +13,11 @@ addButton.addEventListener("click", function(event){
 function createBook(){
     var checkbox = document.createElement("input");
     checkbox.setAttribute("type", "checkbox");
+    checkbox.classList.add("input");
     var status = document.createElement("input");
     status.setAttribute("type", "checkbox");
     status.setAttribute("id", "status");
+    status.classList.add("status");
     status.disabled = true;
 
     var book = {
