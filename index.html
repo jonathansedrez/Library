@@ -3,9 +3,9 @@
         <title>Library</title>
         <link href="css/reset.css" rel="stylesheet" />
         <link href="css/app.css" rel="stylesheet" />
+        <link href="css/media-query.css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
         <link rel="icon" href="img/favicon.jpg" />
-
     </head>
     <body>
         <nav>
@@ -13,7 +13,8 @@
         </nav>
         
         <main class="main">
-            <div >
+            <div class="container">
+            <div class="div-filter">
                 <input id="filter-book-id" class="filter" name="filter" type="text" placeholder="Filter by ID">
                 <input id="filter-book-title" class="filter" name="filter" type="text" placeholder="Filter by Title">
                 <input id="filter-book-author" class="filter" name="filter" type="text" placeholder="Filter by Author">
@@ -60,6 +61,7 @@
                 <button id="button-returnBook">Return Book</button>
                 <button id="button-deleteBook">Delete book</button>     
             </div>  
+            </div>
         </main>
     </body>
     <script src="js/add-book.js"></script>

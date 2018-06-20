@@ -1,0 +1,26 @@
+@media (max-width: 1024px){
+    .container{
+        background-color: #4d4d4d;
+        margin: 0;
+    }
+    .logo{
+        display: none;
+    }
+    .div-filter{
+        display: block;
+    }
+    .filter{
+        width: 100%;
+        margin: .5em 0;
+    }
+    .buttons{
+        display: block;
+        margin: 0 auto;
+    }
+    button{
+        display: block;
+        margin: 5 auto;
+        width: 95%;
+        
+    }
+}
