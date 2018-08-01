@@ -1,2 +1,2 @@
 # Library
-A library software to practice Javascript
+A project to practice Javascript and responsive website.
